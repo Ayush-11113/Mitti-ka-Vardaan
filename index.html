@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Mitti Ka Vardaan is a student-led composting and sapling-care initiative turning waste into soil and awareness into action."
+    >
+    <title>Mitti Ka Vardaan</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="brand" href="#top" aria-label="Mitti Ka Vardaan home">
+        <span class="brand-mark"></span>
+        <span>Mitti Ka Vardaan</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#story">Story</a>
+        <a href="#impact">Impact</a>
+        <a href="#participate">Participate</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="cinematic" id="story" aria-label="Scroll controlled story of a growing sapling">
+        <div class="scrub-stage">
+          <canvas id="plantCanvas" width="1280" height="720"></canvas>
+
+          <div class="hero-copy">
+            <p class="eyebrow">Student-led composting initiative</p>
+            <h1>Every movement begins in the soil.</h1>
+            <p class="lede">
+              Born from Ansh Gulati's Republic Day address on January 26, 2025,
+              Mitti Ka Vardaan turns everyday organic waste into living proof of change.
+            </p>
+          </div>
+
+          <aside class="chapter-panel" aria-live="polite">
+            <p class="chapter-kicker" id="chapterKicker">Seed</p>
+            <h2 id="chapterTitle">A small beginning</h2>
+            <p id="chapterBody">
+              The idea starts quietly: one address, one call to care for soil,
+              one invitation for a community to participate.
+            </p>
+          </aside>
+
+          <div class="growth-meter" aria-hidden="true">
+            <span id="growthFill"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-band" id="impact">
+        <div class="section-heading">
+          <p class="eyebrow">What changed</p>
+          <h2>Waste became visible. Soil became personal.</h2>
+        </div>
+        <div class="proof-grid">
+          <article>
+            <span>01</span>
+            <h3>Hands-on workshops</h3>
+            <p>Students and residents learned the why behind composting, not just the steps.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Working composting unit</h3>
+            <p>A visible, society-owned system made the result tangible and repeatable.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Community participation</h3>
+            <p>Families began sorting at source and caring for saplings as a shared habit.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="method-band">
+        <div class="method-copy">
+          <p class="eyebrow">The model</p>
+          <h2>Seed, soil, roots, care, community, future.</h2>
+          <p>
+            Mitti Ka Vardaan is designed as a practical cycle: teach the habit,
+            show the compost, nurture the plant, then help another community repeat it.
+          </p>
+        </div>
+        <ol class="method-steps" aria-label="Mitti Ka Vardaan growth model">
+          <li><span>Seed</span><strong>Start with awareness.</strong></li>
+          <li><span>Soil</span><strong>Separate organic waste.</strong></li>
+          <li><span>Roots</span><strong>Bring residents together.</strong></li>
+          <li><span>Care</span><strong>Maintain compost and saplings.</strong></li>
+          <li><span>Scale</span><strong>Repeat the program with new groups.</strong></li>
+        </ol>
+      </section>
+
+      <section class="participate-band" id="participate">
+        <p class="eyebrow">Next season</p>
+        <h2>Grow the habit where you live, learn, and gather.</h2>
+        <p>
+          The first release focuses on the homepage story. The next layer can expand into
+          school sessions, society kits, volunteer signups, and documented outcomes.
+        </p>
+        <a class="cta" href="mailto:hello@mittikavardaan.org">Start a conversation</a>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
